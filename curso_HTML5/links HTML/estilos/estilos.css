@@ -1,0 +1,46 @@
+/* Estado base del link
+a:link{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}
+/* Estado visitado del link */ 
+/* a:visited{
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+} */
+/* Estado click sobre link */
+/* a:hover{
+    color: blue;
+    background-color: yellow;
+    border: 1px solid blue;
+    text-decoration: none;
+} */
+/* Estado momento del click */
+/* a:active{
+    color: green;
+    background-color: blueviolet;
+    border: 1px solid violet;
+    text-decoration: none;
+} */ */
+img{
+    width: 200px;
+    margin-top: 20px;
+}
+a:link, a:visited{
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 4px;
+    margin: auto;
+}
+a:active, a:hover{
+    color: blue;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 4px;
+    margin: auto;
+}

@@ -1,0 +1,16 @@
+h1{
+    color: aliceblue;
+    background-color: red;
+}
+p{
+    color: black;
+    background-color: aqua;
+}
+.parrafo{
+    color: black;
+    background-color: red;
+    padding: 40px;
+    border: 10px solid blue;
+    margin: 20px auto;
+    text-align: center;
+}

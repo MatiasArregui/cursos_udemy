@@ -1,0 +1,113 @@
+.box_1 div{
+    margin: 20px;
+}
+input{
+    background-color: rgba(231, 159, 132, 0.849);
+    border-radius: 2px;
+}
+input[type="text"]{
+    background-color: burlywood;
+    border: 2px solid rgb(228, 142, 142);
+}
+.box_2{
+    background-color: bisque;
+    border: 2px solid #fdd8ab;
+    padding: 5px;
+}
+.box_2 p:nth-child(1){
+    text-align: center;
+    color: rgb(174, 211, 211);
+    font-size: 25px;
+}
+.box_2 p:nth-child(2){
+    text-align: end;
+    color: #6bc2eb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.box_2 p:nth-child(3){
+    text-align: justify; 
+    color: #ca7fdd;
+    font-style: italic;
+    font-size: 25px;
+}
+.box_2 p:nth-child(4){
+    text-align: left;
+    color: #93f7b5;
+    font-style: oblique;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    text-shadow:slateblue;
+    font-size: 30px;
+}
+.box_2 p:nth-child(5){
+    text-align: right;
+    color: #dd778d;
+    display: inline;
+}
+.box_2 p:nth-child(6){
+    text-align: start;
+    color: #87dce7;
+    display: inline;
+}
+
+.h3_estilo{
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: #ca7fdd;
+    margin: 50px;
+    padding: 50px;
+    border: 50px solid #6bc2eb;
+}
+
+
+/* .margarita{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid orange;
+}
+.margarita:link{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid orange;
+}
+.margarita:visited{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px;
+    background-color: red;
+    padding: 10px;
+}
+.margarita:hover{
+    color: orange;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px;
+    background-color: #87dce7;
+    padding: 10px;
+}
+.margarita:active{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 50px;
+    background-color: yellowgreen;
+    padding: 10px;
+} */
+
+.drop_content{
+    display: none;
+}
+.drop:hover .drop_content{
+    display: block;
+}

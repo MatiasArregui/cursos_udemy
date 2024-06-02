@@ -1,0 +1,12 @@
+.box_1{
+    display: flex;
+    gap: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}

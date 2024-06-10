@@ -1,5 +1,4 @@
 # Empaquetado y desmpaquetado de variables
-
 tupla = (1,2,3)
 a, b, c = tupla
 
@@ -13,6 +12,8 @@ def suma(*args):
     return total
 
 sumatoria = suma(1,2,3,4,5)
+lista_1 = [1,2,3,4,5]
+print(suma(*lista_1))
 print(sumatoria)
 
 # Las keys deben ser igual que los nombres de los parametros
@@ -25,6 +26,7 @@ diccionario = {
     "edad":25,
     "pais":"Argentina"
 }
+
 print(sobre(**diccionario))
 
 def mostrar(**kwargs):
@@ -33,5 +35,4 @@ def mostrar(**kwargs):
 
 mostrar(**diccionario)
 mostrar(nombre = "matias", apellido = "arregui", edad = 25)
-lista_1 = [1,2,3,4,5]
-print(suma(*lista_1))
+

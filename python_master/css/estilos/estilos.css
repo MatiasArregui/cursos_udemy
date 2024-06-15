@@ -111,3 +111,15 @@ input[type="text"]{
 .drop:hover .drop_content{
     display: block;
 }
+h4{
+    color: red;
+    background-color: #6bc2eb;
+}
+h4::before{
+    content: "Este el el before ";
+    color: #dd778d;
+}
+h4::after{
+    content: " Este es el after";
+    color: aqua;
+}

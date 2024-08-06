@@ -1,0 +1,68 @@
+/* .container{
+    width: 800px;
+    background-color: #ddd;
+    margin: 40px auto;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px;
+    row-gap: 20px;
+    column-gap: 50px;
+} */
+.container{
+    width: 80%;
+    background-color: #ddd;
+    margin: 40px auto;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+.container div{
+    padding: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.item-1{
+    background-color: orangered;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.item-2{
+    background-color: burlywood;
+}
+.item-3{
+    background-color: aquamarine;
+}
+.item-4{
+    background-color: cadetblue;
+}
+.item-5{
+    background-color: yellowgreen;
+}
+.item-6{
+    background-color: violet;
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.container-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    background-color: #c1ffce;
+    margin: 30px auto;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: #fdfe8e;
+    padding: 20px;
+}
+
+.color1 {color: #ff79ce;}
+.color2 {color: #ff8d87;}
+.color3 {color: #ffc86f;}
+.color4 {color: #fdfe8e;}
+.color5 {color: #c1ffce;}

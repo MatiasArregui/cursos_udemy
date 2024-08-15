@@ -9,6 +9,258 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- INICIO PAGINA PRINCIPAL -->
+    <section class="main-page">
+        <!-- Lado izquierdo -->
+         <div class="left">
+            <div class="left-content">
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h3 class="left-content-heading">Encuentra tus intereses</h3>
+                </div>
+                <div>
+                    <i class="fas fa-user-friends"></i>
+                    <h3 class="left-content-heading">Explore lo que habla la gente</h3>
+                </div>
+                <div>
+                    <i class="fas fa-comment"></i>
+                    <h3 class="left-content-heading">Unete a la gente</h3>
+                </div>
+            </div>
+         </div>
+         <!-- Lado derecho -->
+          <div class="right">
+            <form  class="right-content-form">
+                    <input type="text" class="user-info" 
+                    placeholder="email, telefono, usuario">
+                    <div>
+                        <input type="password" class="password" placeholder="password">
+                        <label>Contraseña olvidada</label>
+                    </div>
+                    <button type="button" class="btn-top">Iniciar sesion</button>
+            </form>
+            <div class="middle-content">
+                    <i class="fa-brands fa-twitter"></i>
+                    <h1>Explore lo que esta sucediendo en el mundo</h1>
+                    <h4>Unase a twitter hoy</h4>
+                    <button type="button" class="sign-up">Registrarse</button>
+                    <button type="button" class="log-in">Iniciar Sesion</button>
+            </div>
+          </div>
+          <!-- Footer pagina -->
+           <footer class="main-page-footer">
+                <ul>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Terminos</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Ajustes</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Estado</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Marca</a></li>
+                    <li><a href="#">Desarrolladores</a></li>
+                    <li><a href="#">&copy; 2025 Matias Arregui</a></li>
+                </ul>
+           </footer>           
+    </section>
+    <!-- FINAL PAGINA PRINCIPAL -->
+    <!-- INICIO PAGINA DE SESION -->
+    <section class="login-page">
+       <!-- INICIO DE LA NAVEGACION -->
+        <nav class="login-page-nav">
+            <ul>
+                <li class="brand"><a href="#"><i class="fa-brands fa-twitter"></i>Home</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Lenguaje: Español</a></li>
+            </ul>
+        </nav>
+        <!-- INICIO DEL LOGIN -->
+        <div class="login">
+            <div class="login-content">
+                <h2>Iniciar Sesion Twitter</h2>
+                <form class="login-form">
+                    <input type="text" placeholder="email, telefono y usuario">
+                    <input type="password" placeholder="password">
+                    <div>
+                        <button class="login-form-btn" type="button">
+                            Iniciar Sesion
+                        </button>
+                        <input type="checkbox" class="login-form-checkbox" id="check">
+                        <label for="check">Recordar</label>
+                        <a href="#">Has olvidado tu contraseña?</a>
+                    </div>
+                </form>
+            </div>
+            <footer class="login-footer">
+                <p>Nuevo en twitter?<a href="#">Registrate ahora</a></p>
+                <p>Ya usas twitter via mensajes de texto?<a href="#">Activa tu cuenta</a></p>
+            </footer>
+        </div>
+    </section>
+    <!-- FINAL PAGINA DE SESION -->
+    <!-- INICIO PAGINA DE NOTICIAS -->
+    <section class="feeds-page">
+        <!-- INICIO NAVEGACION PAGINA DE NOTICIAS -->
+        <nav class="feeds-nav">
+           <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="fas fa-bell"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+           </div>
+           <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="search twitter" class="search-bar-input">
+           </div>
+           <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="./imagenes/perfil-1.png">
+                </div>
+                <a href="#" class="user-link">Federico Bielanueva</a>
+                <i class="fas fa-chevron-down"></i>
+           </div>
+        </nav>
+        <!-- INICIO CONTENIDO DE NOTICIAS -->
+        <div class="feeds-content">
+            <div class="feeds-header">
+                <div class="header-top">
+                    <h4>Home</h4>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="header-post">
+                    <div class="header-img-wrapper">
+                        <img src="./imagenes/perfil-1.png">
+                    </div>
+                    <input type="text" placeholder="Que esta sucediendo?">
+                    <i class="far fa-image"></i>
+                    <i class="fas fa-camera"></i>
+                    <i class="far fa-chart-bar"></i>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="user-avatar">
+                        <img src="./imagenes/perfil-2.png" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info">
+                            <h4>Francisca panchavereda</h4>
+                            <i class="fas fa-check-circle"></i>
+                            <span>@franciscaVereda 15m</span>
+                        </div>
+                        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio accusantium 
+                            fugit accusamus, quos nulla dolores minus ullam libero iure.</p>
+                            <div class="post-img">
+                                <img src="./imagenes/valencia-post.jpeg">
+                            </div>
+                            <div class="post-icons">
+                                <i class="far fa-comment"></i>
+                                <i class="fas fa-retweet"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="user-avatar">
+                        <img src="./imagenes/perfil-3.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info">
+                            <h4>Francisca panchavereda</h4>
+                            <i class="fas fa-check-circle"></i>
+                            <span>@franciscaVereda 15m</span>
+                        </div>
+                        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio accusantium 
+                            fugit accusamus, quos nulla dolores minus ullam libero iure.</p>
+                            <div class="post-img">
+                                <img src="./imagenes/mazatlan-post.jpg">
+                            </div>
+                            <div class="post-icons">
+                                <i class="far fa-comment"></i>
+                                <i class="fas fa-retweet"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="user-avatar">
+                        <img src="./imagenes/perfil-4.avif" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info">
+                            <h4>Francisca panchavereda</h4>
+                            <i class="fas fa-check-circle"></i>
+                            <span>@franciscaVereda 15m</span>
+                        </div>
+                        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio accusantium 
+                            fugit accusamus, quos nulla dolores minus ullam libero iure.</p>
+                            <div class="post-img">
+                                <img src="./imagenes/japon-post.jpg">
+                            </div>
+                            <div class="post-icons">
+                                <i class="far fa-comment"></i>
+                                <i class="fas fa-retweet"></i>
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <h3 class="follow-heading">A quien seguir</h3>
+                <div class="follow-user">
+                    <div class="follow-user-img">
+                        <img src="./imagenes/perfil-2.png">
+                    </div>
+                    <div class="follow-user-info">
+                        <h4>Francisca panchavereda</h4>
+                        <p>@franciscaVereda</p>
+                    </div>
+                    <button type="button" class="follow-btn">seguir</button>
+                </div>
+                <div class="follow-user">
+                    <div class="follow-user-img">
+                        <img src="./imagenes/perfil-3.jpg">
+                    </div>
+                    <div class="follow-user-info">
+                        <h4>Francisca panchavereda</h4>
+                        <p>@franciscaVereda</p>
+                    </div>
+                    <button type="button" class="follow-btn">seguir</button>
+                </div>
+                <div class="follow-user">
+                    <div class="follow-user-img">
+                        <img src="./imagenes/perfil-4.avif">
+                    </div>
+                    <div class="follow-user-info">
+                        <h4>Francisca panchavereda</h4>
+                        <p>@franciscaVereda</p>
+                    </div>
+                    <button type="button" class="follow-btn">seguir</button>
+                </div>
+                <div class="follow-link">
+                    <a href="#">Mostrar mas</a>
+                </div>
+                <footer class="follow-footer">
+                    <ul>
+                        <li><a href="#">Condiciones</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Mas</a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <button type="button" class="post-btn">
+            +<i class="fas fa-feather-alt"></i>
+            Post
+        </button>
+    </section>
+    <!-- FINAL PAGINA DE NOTICIAS -->
 </body>
 </html>

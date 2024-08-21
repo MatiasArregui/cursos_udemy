@@ -21,6 +21,7 @@ const sidebarWrapper = document.querySelector('.sidebar-wrapper');
 const xBtn = document.querySelector('.sidebar-header i');
 const toggle = document.querySelector('.toggle');
 const circle = document.querySelector('.circle');
+
 /***************************************************************/
 /***************************************************************/
 
@@ -136,4 +137,3 @@ toggle.addEventListener('click', () =>{
     Array.from(borders).map(border =>
     border.classList.toggle('border-color'));
 });
-

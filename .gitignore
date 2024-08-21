@@ -2,3 +2,5 @@ __pychache__
 Scripts
 Lib
 Include
+.vscode
+pyvenv.cfg
